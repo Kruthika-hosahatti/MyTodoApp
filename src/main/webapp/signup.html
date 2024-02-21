@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+ fieldset{
+     height:350px;
+     width:500px;
+     background-color: lightgrey;
+     margin-left:500px;
+   /*  margin-top:50px;*/
+   box-shadow: 3px 3px 3px black;
+ }
+ 
+ h1{
+     margin-left:600px;
+     margin-top:150px;
+     color: red;
+ 
+ }
+
+</style>
+</head>
+<body>
+<h1>REGISTER FORM</h1>
+<form action="signup" method="post">
+<fieldset>
+ <br/><br/>
+  <label>Name:</label>
+  <input type="text" name="name">
+  
+  <br/><br/>
+  
+  <label>Email:</label>
+  <input type="email" name="email">
+    
+     <br/><br/>
+  
+   <label>Password:</label>
+    <input type="password" name="password">
+    
+     <br/><br/>
+     
+     <label>Phone:</label>
+    <input type="number" name="mobile">
+    
+     <br/><br/>
+     
+      
+     <label>Gender:</label>
+    Male:<input type="radio" name="gender" value="male">
+    Female:<input type="radio" name="gender" value="female">
+    
+     <br/><br/>
+     
+      <label>DOB::</label>
+    <input type="date" name="dob">
+    
+     <br/><br/>
+     
+     
+     <button type="submit" >Signup</button>
+     
+          <br/><br/>
+    
+     <a href="login.html">Already Registered</a>
+
+
+</fieldset>
+</form>
+</body>
+</html>

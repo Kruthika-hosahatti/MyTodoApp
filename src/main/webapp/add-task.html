@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+fieldset {
+	height:300px;
+	width:300px;
+	margin-left: 500px;
+	margin-top: 100px;
+	box-shadow: 2px 2px 2px black;
+	background-color: lightgrey;
+}
+
+
+
+</style>
+</head>
+<body>
+<form action="add-task" method="post" enctype="multipart/form-data">
+<fieldset>
+	<center><h3>Enter Task Details</h3></center>
+	
+	<label>Name:</label>
+	<input type="text" name="name">
+	<br/>
+	<br/>
+	
+	<label>Description:</label>
+	<input type="text" name="desc">
+	<br/>
+	<br/>
+	
+	<label>Image:</label>
+	<input type="file" name="image">
+	<br/>
+	<br/>
+	
+	<button>Add Task</button>
+	<button>Cancel</button>
+	
+	
+</fieldset>
+</form>
+
+</body>
+</html>
